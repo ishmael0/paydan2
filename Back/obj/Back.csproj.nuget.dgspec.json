@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspaces\\paydan2\\Back\\Back.csproj": {}
+    "D:\\myself\\test\\paydan2\\Back\\Back.csproj": {}
   },
   "projects": {
-    "D:\\Workspaces\\paydan2\\Back\\Back.csproj": {
+    "D:\\myself\\test\\paydan2\\Back\\Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspaces\\paydan2\\Back\\Back.csproj",
+        "projectUniqueName": "D:\\myself\\test\\paydan2\\Back\\Back.csproj",
         "projectName": "Back",
-        "projectPath": "D:\\Workspaces\\paydan2\\Back\\Back.csproj",
-        "packagesPath": "C:\\Users\\Esmaeel\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspaces\\paydan2\\Back\\obj\\",
+        "projectPath": "D:\\myself\\test\\paydan2\\Back\\Back.csproj",
+        "packagesPath": "C:\\Users\\e.motaghi\\.nuget\\packages\\",
+        "outputPath": "D:\\myself\\test\\paydan2\\Back\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Esmaeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\e.motaghi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Workspaces\\Santel\\Core\\Core.csproj": {
-                "projectPath": "D:\\Workspaces\\Santel\\Core\\Core.csproj"
+              "D:\\myself\\test\\Santel\\Core\\Core.csproj": {
+                "projectPath": "D:\\myself\\test\\Santel\\Core\\Core.csproj"
               }
             }
           }
@@ -65,29 +68,32 @@
         }
       }
     },
-    "D:\\Workspaces\\Santel\\Core\\Core.csproj": {
+    "D:\\myself\\test\\Santel\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspaces\\Santel\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\myself\\test\\Santel\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Workspaces\\Santel\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Esmaeel\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspaces\\Santel\\Core\\obj\\",
+        "projectPath": "D:\\myself\\test\\Santel\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\e.motaghi\\.nuget\\packages\\",
+        "outputPath": "D:\\myself\\test\\Santel\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Esmaeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\e.motaghi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -98,28 +104,24 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Captcha": {
-              "target": "Package",
-              "version": "[4.4.2, )"
-            },
             "EPPlus": {
               "target": "Package",
-              "version": "[5.7.5, )"
+              "version": "[5.8.3, )"
             },
             "Hangfire": {
               "target": "Package",
-              "version": "[1.7.26, )"
+              "version": "[1.7.27, )"
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.7.26, )"
+              "version": "[1.7.27, )"
             },
             "Hangfire.SqlServer": {
               "target": "Package",
-              "version": "[1.7.26, )"
+              "version": "[1.7.27, )"
             },
             "Microsoft.AspNetCore": {
               "target": "Package",
@@ -127,51 +129,51 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.SpaServices": {
               "target": "Package",
-              "version": "[3.1.19, )"
+              "version": "[3.1.21, )"
             },
             "Microsoft.AspNetCore.SpaServices.extensions": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "NEST": {
               "target": "Package",
-              "version": "[7.15.0, )"
+              "version": "[7.15.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -179,19 +181,19 @@
             },
             "StackExchange.Redis": {
               "target": "Package",
-              "version": "[2.2.79, )"
+              "version": "[2.2.88, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.2, )"
+              "version": "[6.2.3, )"
             },
             "System.Drawing.Common": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[6.0.0, )"
             },
             "Z.EntityFramework.Plus.EFCore": {
               "target": "Package",
-              "version": "[5.2.14, )"
+              "version": "[6.13.1, )"
             }
           },
           "imports": [
